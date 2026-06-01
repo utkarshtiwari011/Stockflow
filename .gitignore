@@ -1,0 +1,42 @@
+# ⚙️ Python Caches & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ⚛️ React & Node Caches / Outputs
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+.vite
+
+# 🔒 Secure Environment Variables (Never commit secrets!)
+.env
+.env.production
+.env.development
+.env.local
+.env.development.local
+.env.production.local
+
+# 📁 OS / Editor Caches
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# 🐳 Docker Logs & DB Data
+*.log
+postgres_data/
