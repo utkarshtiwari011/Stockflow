@@ -29,6 +29,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Live Links](#live-links)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Architecture](#architecture)
@@ -58,6 +59,15 @@ StockFlow is a **production-ready, fully containerized** Inventory & Order Manag
 - 🔒 **Reliable** — Business logic prevents overselling and data inconsistency  
 - 📦 **Containerized** — One command deployment with Docker Compose
 - 🎨 **Premium UI** — Professional React dashboard with real-time updates
+
+---
+
+## 🔗 Live Links
+
+- **GitHub repository** - [https://github.com/utkarshtiwari011/Stockflow](https://github.com/utkarshtiwari011/Stockflow)
+- **Frontend deployment URL** - [https://stockflow-tawny-six.vercel.app](https://stockflow-tawny-six.vercel.app)
+- **Backend API URL** - [https://stockflow-backend-v6fk.onrender.com](https://stockflow-backend-v6fk.onrender.com)
+- **Docker Hub image link for the backend image** - [https://hub.docker.com/r/utkarshtiwari011/stockflow-backend](https://hub.docker.com/r/utkarshtiwari011/stockflow-backend)
 
 ---
 
