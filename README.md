@@ -67,7 +67,7 @@ StockFlow is a **production-ready, fully containerized** Inventory & Order Manag
 - **GitHub repository** - [https://github.com/utkarshtiwari011/Stockflow](https://github.com/utkarshtiwari011/Stockflow)
 - **Frontend deployment URL** - [https://stockflow-tawny-six.vercel.app](https://stockflow-tawny-six.vercel.app)
 - **Backend API URL** - [https://stockflow-backend-v6fk.onrender.com](https://stockflow-backend-v6fk.onrender.com)
-- **Docker Hub image link for the backend image** - [https://hub.docker.com/r/utkarshtiwari011/stockflow-backend](https://hub.docker.com/r/utkarshtiwari011/stockflow-backend)
+- **Docker Hub image link for the backend image** - [https://hub.docker.com/r/utkarshtiwari0113/stockflow-backend](https://hub.docker.com/r/utkarshtiwari0113/stockflow-backend)
 
 ---
 
@@ -608,12 +608,12 @@ docker push yourusername/stockflow-backend:latest
 
 ```bash
 # Tag and push backend image
-docker build -t utkarshtiwari011/stockflow-backend:latest ./backend
-docker push utkarshtiwari011/stockflow-backend:latest
+docker build -t utkarshtiwari0113/stockflow-backend:latest ./backend
+docker push utkarshtiwari0113/stockflow-backend:latest
 
 # Tag and push frontend image  
-docker build -t utkarshtiwari011/stockflow-frontend:latest ./frontend
-docker push utkarshtiwari011/stockflow-frontend:latest
+docker build -t utkarshtiwari0113/stockflow-frontend:latest ./frontend
+docker push utkarshtiwari0113/stockflow-frontend:latest
 ```
 
 ---
