@@ -123,6 +123,7 @@ export function Topbar({ onMenuToggle }) {
           >
             <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-primary text-white font-bold text-xs glow-effect">
               {user ? user.initials : 'U'}
+            </div>
           </button>
 
           {/* Floating Dropdown Panel (Re-styled for original premium Dark theme) */}
