@@ -159,15 +159,6 @@ export function Topbar({ onMenuToggle }) {
                 </button>
               </div>
 
-              <div className="border-t border-borderDefault pt-1">
-                <button
-                  type="button"
-                  onClick={handleSignOut}
-                  className="flex items-center gap-2.5 w-full px-4 py-2 text-left text-xs font-bold text-danger hover:bg-red-500/5 transition-colors"
-                >
-                  <LogOut size={14} /> Sign Out
-                </button>
-              </div>
             </div>
           )}
         </div>

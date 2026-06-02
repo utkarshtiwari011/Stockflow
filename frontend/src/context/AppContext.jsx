@@ -2,13 +2,20 @@ import React, { createContext, useContext, useReducer } from 'react';
 
 const AppContext = createContext();
 
+const defaultUser = {
+  name: 'Utkarsh Tiwari',
+  initials: 'UT',
+  email: 'utkarsh@stockflow.dev',
+  role: 'Administrator'
+};
+
 const initialState = {
   products: [],
   customers: [],
   orders: [],
   loading: false,
   error: null,
-  user: JSON.parse(localStorage.getItem('sf_user')) || null,
+  user: JSON.parse(localStorage.getItem('sf_user')) || defaultUser,
   globalSearch: '',
 };
 

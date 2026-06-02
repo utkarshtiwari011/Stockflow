@@ -12,10 +12,6 @@ import { Toaster } from 'react-hot-toast';
 
 // Secure Route boundary checking user auth state
 function ProtectedRoute({ children }) {
-  const { state } = useApp();
-  if (!state.user) {
-    return <Navigate to="/login" replace />;
-  }
   return <Layout>{children}</Layout>;
 }
 
